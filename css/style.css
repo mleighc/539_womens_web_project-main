@@ -1,0 +1,42 @@
+body{
+    padding: 10px;
+    background-color: #579BB1;
+    font-size: 125%;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    color: #E1D7C6;
+    font-size:200%;
+    font-style: bold;
+    padding: 10px;
+}
+h2{
+    color: #E1D7C6;
+    font-size:120%;
+    font-style: bold;
+    padding: 10px;
+}
+p {
+    color: #F8F4EA;
+    font-size: 90%;
+}
+img{
+    width: 600px;
+}
+footer{
+
+}
+a:hover{
+    /* make the background color of your link black and the text white when you hover over it */
+    color: white;
+    background-color: #E1D7C6;
+  }
+a{
+    color: #E1D7C6;
+    font-style: bold;
+    text-decoration: underline;
+  }
+footer{
+    font-size: 75%;
+    padding: 10px;
+  }
