@@ -1,60 +1,93 @@
-body{
+body {
     padding: 10px;
-    background-color: #579BB1;
+    background-color: #3C6255;
     font-size: 125%;
     font-family: Georgia, Times, 'Times New Roman', serif;
 }
-h1{
-    color: #E1D7C6;
-    font-size:200%;
-    font-style: bold;
-    padding: 10px;
-}
-h2{
-    color: #E1D7C6;
-    font-size:120%;
-    font-style: bold;
-    padding: 10px;
-}
-h3{
-    color: #E1D7C6;
-    font-size:100%;
-    font-style: bold;
-    padding: 10px;
-}
-h4{
-    color: #E1D7C6;
-    font-size:90%;
-    font-style: bold;
-    padding: 10px;
-}
-p {
-    color: #F8F4EA;
-    font-size: 90%;
-    padding:10px;
-}
-img{
-    width: 600px;
-}
-footer{
 
+h1 {
+    color: #EAE7B1;
+    font-size: 200%;
+    font-style: bold;
+    padding: 10px;
 }
-a:hover{
-    /* make the background color of your link black and the text white when you hover over it */
+
+h2 {
+    color: #A6BB8D;
+    font-size: 120%;
+    font-style: bold;
+    padding: 10px;
+}
+
+h3 {
+    color: #A6BB8D;
+    font-size: 100%;
+    font-style: bold;
+    padding: 10px;
+}
+
+h4 {
+    color: #A6BB8D;
+    font-size: 90%;
+    font-style: bold;
+    padding: 10px;
+}
+
+p {
+    color: #A6BB8D;
+    font-size: 90%;
+    padding: 10px;
+}
+
+img {
+    width: 45%;
+    padding: 15px;
+    margin: 5px 10px 20px 15px;
+    border: solid #7B8FA1 3px;
+}
+
+footer {}
+
+a:hover {
     color: white;
-    background-color: #E1D7C6;
-  }
-a{
-    color: #E1D7C6;
+    background-color: #61876E;
+}
+
+a {
+    color: #A6BB8D;
     font-style: bold;
     text-decoration: underline;
-  }
-footer{
+
+}
+
+footer {
     font-size: 75%;
     padding: 10px;
-  }
-ul{
-    list-style-type: square;
-    color: #F8F4EA;
-    padding-left: 50px;
+}
+
+ul {
+    color: #A6BB8D;
+    padding-left: 25px;
+}
+
+li {
+    display: inline-block;
+    margin: 5px;
+    padding-right: 20px;
+}
+
+.active {
+    color: #EAE7B1;
+    background-color: #61876E;
+    border: dashed 3px;
+    padding: 4px;
+}
+
+.skip {
+    position: absolute;
+    left: -1000px;
+}
+
+.skip:focus {
+    left: 15px;
 }
