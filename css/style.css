@@ -72,9 +72,10 @@ footer {
 ul {
     color: #E6DDC4;
     padding-left: 25px;
+    font-size: 80%;
 }
 
-li {
+nav li {
     display: inline-block;
     margin: 5px;
     padding-right: 20px;
