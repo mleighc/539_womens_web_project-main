@@ -1,40 +1,40 @@
 body {
     padding: 10px;
-    background-color: #678983;
+    background-color: #470D21;
     font-size: 125%;
-    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 h1 {
-    color: #181D31;
+    color: #9C0F48;
     font-size: 200%;
     font-style: bold;
     padding: 10px;
 }
 
 h2 {
-    color: #F0E9D2;
+    color: #D67D3E;
     font-size: 120%;
     font-style: bold;
     padding: 10px;
 }
 
 h3 {
-    color: #F0E9D2;
+    color: #D67D3E;
     font-size: 100%;
     font-style: bold;
     padding: 10px;
 }
 
 h4 {
-    color: #F0E9D2;
+    color: #D67D3E;
     font-size: 90%;
     font-style: bold;
     padding: 10px;
 }
 
 p {
-    color: #181D31;
+    color: #F9E4D4;
     font-size: 80%;
     padding: 8px;
     line-height: 1.25;
@@ -44,7 +44,7 @@ img {
     width: 45%;
     padding: 15px;
     margin: 5px 10px 20px 15px;
-    border: solid #E6DDC4 2px;
+    border: solid #F9E4D4 2px;
 }
 
 footer>p {
@@ -54,11 +54,11 @@ footer>p {
 
 a:hover {
     color: white;
-    background-color: #E6DDC4;
+    background-color: #F9E4D4;
 }
 
 a {
-    color: #E6DDC4;
+    color: #F9E4D4;
     font-style: bold;
     text-decoration: underline;
 
@@ -70,7 +70,7 @@ footer {
 }
 
 ul {
-    color: #E6DDC4;
+    color: #F9E4D4;
     padding-left: 25px;
     font-size: 80%;
 }
@@ -82,8 +82,8 @@ nav li {
 }
 
 .active {
-    color: #E6DDC4;
-    background-color: #61876E;
+    color: #F9E4D4;
+    background-color: #400E32;
     border: dashed 3px;
     padding: 4px;
 }
