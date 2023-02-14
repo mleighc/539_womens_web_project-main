@@ -2,7 +2,7 @@ body {
     line-height: 1.25;
     background-color: #F5EFE6;
     font-family: "Raleway", sans-serif;
-    font-size: 25px;
+    font-size: 18px;
 }
 
 header,
@@ -78,66 +78,72 @@ h3 {
 .grid {
     /*Set width, margin, border properties, background color, and grid properties */
     display: grid;
-    grid-template-columns: 90%;
+    grid-template-columns: 100%;
     justify-content: center;
-    grid-template-columns: 30% 30% 30%;
+    grid-template-columns: 25% 25% 25%;
     grid-row-gap: 10px;
     grid-column-gap: 4%;
-    background-color: #86A3B8;
+    /* background-color: #86A3B8; */
 }
 
 .grid div {
     /* Set border properties, padding, and background color */
     /* background-color: #86A3B8; */
-    padding: 5px;
-    border-radius: 25px;
+    padding: 8px;
     border: 3px solid #000000;
     background-color: #FFFFFF;
 }
 
 .grid img {
     /* Set width, margin, and display */
-    min-width: 90%;
+    min-width: 95%;
     justify-content: center;
     /* display: inline-block; */
     margin: 2%;
+    padding: 5px;
+    border-radius: 100px 5px;
+    border: 1.5px solid black;
 }
 
 .grid div:nth-child(3n+1) {
     /* Set box shadow */
-    box-shadow: 10px 0 5px rgb(0 0 0 / 0.3);
+    /* box-shadow: 10px 0 5px rgb(0 0 0 / 0.3); */
+    border-radius: 100px 5px;
 }
 
 .grid div:nth-child(3n) {
     /* Set box shadow */
-    box-shadow: -10px 0px 5px rgb(0 0 0 / 0.3);
+    /* box-shadow: -10px 0px 5px rgb(0 0 0 / 0.3); */
+    /* border-radius: 12px 60px; */
 }
 
 .grid div:nth-child(3n+2) {
     /* Set box shadow */
-    box-shadow: -10px 0 5px rgb(0 0 0 / 0.3),
-        10px 0 5px rgb(0 0 0 / 0.3);
+    /* box-shadow: -10px 0 5px rgb(0 0 0 / 0.3), */
+    /* 10px 0 5px rgb(0 0 0 / 0.3); */
+    /* border-radius: 12px; */
 
 }
 
 p+p {
     /* Set indentation */
-    text-indent: 5%;
+    text-indent: 4.5%;
     /* padding-left: 1%; */
 }
 
 p {
     /* Set margin */
-    margin: 1.5%;
+    margin: 2%;
+    padding: 1%;
     color: #00425A;
 }
 
 .grid ul li {
     /* Set margin, line-spacing, list styling  */
     line-height: 1;
-    list-style-image: url("../images/sketchbook.png");
-    margin-bottom: 3%;
-    margin-left: 15%;
+    list-style-image: url("../images/bookmark-solid.svg");
+    margin-bottom: 3.5%;
+    margin-left: 12.5%;
 }
 
 footer {
@@ -162,4 +168,12 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     position: static;
+}
+
+dt {
+    font-size: 35px;
+}
+
+dd {
+    font-size: 25px;
 }
