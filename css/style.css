@@ -88,9 +88,9 @@ h3 {
 div.grid {
     /*Set width, margin, border properties, background color, and grid properties */
     display: grid;
-    justify-content: space-around;
-    align-items: start;
-    grid-template-columns: 25% 25% 25%;
+    justify-content: space-evenly;
+    align-items: center;
+    grid-template-columns: 25% 40% 25%;
     grid-row-gap: 1%;
     grid-column-gap: 2.5%;
     overflow: auto;
