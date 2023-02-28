@@ -14,54 +14,57 @@ body {
 } */
 
 ul.nav_links {
-    font-size: 30px;
+    font-size: 24px;
     display: flex;
     justify-content: space-evenly;
     padding: 2%;
 }
 
 .nav_item a {
-    color: #3C2317;
+    color: #AA8B56;
     text-decoration: none;
+    font-weight: 450;
+}
+
+.hero-text a {
+    color: white;
+    text-decoration: none;
+    font-weight: 450;
 }
 
 .nav_item a:hover,
-a:focus {
+a:focus,
+a:active {
     text-decoration: overline;
     text-decoration-thickness: 5px;
-    text-decoration-color: #628E90;
+    text-decoration-color: #4E6C50;
     outline: none;
-}
-
-.nav_item a:focus {
-    text-decoration: overline;
-    text-decoration-thickness: 5px;
-    text-decoration-color: #628E90;
-    outline: none;
+    font-weight: 700;
 }
 
 h1 {
     /*Set font and font size*/
     font-family: Raleway, Anton, 'Times New Roman', Arial;
-    font-size: 65px;
-    color: #3C2317;
+    font-size: 45px;
+    color: #395144;
     font-weight: 700;
 }
 
 h2 {
-    font-size: 45px;
+    font-size: 35px;
     font-family: Raleway, Anton, 'Times New Roman', Arial;
     text-align: center;
-    color: #3C2317;
+    color: #4E6C50;
     font-weight: 600;
     padding: 15px;
     margin: 5px;
 }
 
 h3 {
-    /*Set font size*/
-    font-size: 35px;
-    color: #628E90;
+    font-family: Raleway, Anton, 'Times New Roman', Arial;
+    font-size: 25px;
+    color: #AA8B56;
+    font-weight: 500;
 }
 
 h1,
@@ -69,7 +72,7 @@ h2,
 h3 {
     /*Set margin */
     margin: 4%;
-
+    text-align: center;
 }
 
 .skip {
@@ -82,51 +85,38 @@ h3 {
     top: 15px;
 }
 
-.grid {
+div.grid {
     /*Set width, margin, border properties, background color, and grid properties */
     display: grid;
-    grid-template-columns: 100%;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: start;
     grid-template-columns: 25% 25% 25%;
-    grid-row-gap: 5%;
-    grid-column-gap: 5%;
-    /* background-color: #86A3B8; */
+    grid-row-gap: 1%;
+    grid-column-gap: 2.5%;
+    overflow: auto;
 }
 
 .grid div {
     /* Set border properties, padding, and background color */
-    /* background-color: #86A3B8; */
-    padding: 8px;
+    /* backgro und-color: #86A3B8; */
+    /* padding: 8px;
     border: 3px solid #000000;
-    background-color: #FFFFFF;
+    background-color: #FFFFFF; */
 }
 
 .grid img {
     /* Set width, margin, and display */
-    min-width: 95%;
+    min-width: 100%;
     justify-content: center;
-    /* display: inline-block; */
+    display: inline-block;
     margin: 2%;
     padding: 5px;
-    border-radius: 100px 5px;
-    border: 1.5px solid black;
+    border-radius: 25px 125px;
+    border: 10px solid #395144;
 }
 
-/* .grid div:nth-child(1) {
-    /* Set box shadow */
-/* box-shadow: 10px 0 5px rgb(0 0 0 / 0.3); */
-border-radius: 100px 0 0 0;
-}
 
-.grid div:nth-child(19) {
-    border-radius: 0 0 0 100px;
-}
-
-.grid div:nth-child(3) {
-    border-radius: 0 100px 0 0;
-}
-
-*/ p+p {
+p+p {
     /* Set indentation */
     text-indent: 4.5%;
     /* padding-left: 1%; */
@@ -136,15 +126,21 @@ p {
     /* Set margin */
     margin: 3%;
     padding: 2%;
-    color: #00425A;
+    color: #4E6C50;
 }
 
 .grid ul li {
     /* Set margin, line-spacing, list styling  */
-    line-height: 1;
-    list-style-image: url("../images/bookmark-solid.svg");
+    line-height: 1.2;
+    list-style-image: url("../images/bookmark-regular.svg");
+    list-style-position: outside;
     margin-bottom: 3.5%;
-    margin-left: 12.5%;
+    font-style: italic;
+    margin: 3%;
+    /* padding: 2%; */
+    color: #4E6C50;
+    /* margin-left: 5%; */
+    text-indent: 3%;
 }
 
 footer {
@@ -158,14 +154,14 @@ footer {
     position: inherit;
     top: 40%;
     /* left: 50%; */
-    /* transform: translate(-50%, -50%); */
+    transform: translate(0, -30%);
     color: white !important;
     padding: 15px;
 }
 
 .hero-image {
-    background-image: linear-gradient(rgba(62, 62, 62, 0.5), rgba(73, 72, 72, 0.65)), url("../images/women_march_pano.jpg");
-    height: 20%;
+    background-image: linear-gradient(rgba(48, 48, 48, 0.5), rgba(53, 52, 52, 0.65)), url("../images/women_march_pano.jpg");
+    height: 40%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -175,7 +171,7 @@ footer {
 dt {
     font-family: Raleway, Anton, 'Times New Roman', Arial;
     text-align: center;
-    color: #628E90;
+    color: #4E6C50;
     font-weight: bold;
 }
 
