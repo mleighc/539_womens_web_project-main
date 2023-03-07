@@ -122,6 +122,8 @@ div.grid {
     border: 6px solid #3C4245;
     -webkit-box-shadow: 0 0 30px 8px #5f6769;
     box-shadow: 0 0 30px 8px #5f6769;
+    opacity: 85%;
+    filter: grayscale(1);
 }
 
 .grid ul li {
