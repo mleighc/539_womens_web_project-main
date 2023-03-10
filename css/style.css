@@ -3,6 +3,16 @@ body {
     font-family: Alegreya Sans, sans-serif;
     font-size: 18px;
     background-color: #EAD3CB
+        /* background-image: linear-gradient(to bottom,
+            rgba(189, 199, 201, 0.5),
+            rgba(132, 84, 96, 0.5)), url("../images/vintage_books.jpg"); */
+}
+
+body.lit {
+    background-image: linear-gradient(to bottom,
+            rgba(0, 0, 0, 0.1),
+            rgba(0, 0, 0, 0.1)), url("../images/grunge-vintage-old-paper-background.jpg");
+    background-size: 100%;
 }
 
 .nav_links {
@@ -39,11 +49,25 @@ nav a.active {
     font-weight: 425;
 }
 
+svg {
+    width: 15px;
+    fill: #EAD3CB;
+    margin-right: 8px;
+}
+
+li:nth-child(1)>a>svg {
+    width: 11px;
+}
+
 h1 {
     font-family: Alegreya, Anton, 'Times New Roman', Arial;
     font-size: 60px;
     color: #845460;
     font-weight: 700;
+}
+
+h1.L {
+    color: #2B4F60;
 }
 
 h2 {
@@ -193,6 +217,24 @@ dd>p {
         flex-wrap: nowrap;
     }
 
+    .nav_links {
+        animation-duration: 1.5s;
+        animation-name: slidein;
+    }
+
+    @keyframes slidein {
+        from {
+            margin-left: 100%;
+            width: 300%;
+        }
+
+        to {
+            margin-left: 0%;
+            width: 100%;
+        }
+    }
+
+
     nav a.active,
     .nav_item a:focus,
     .nav_item a:hover {
@@ -212,10 +254,10 @@ dd>p {
         transform: translate(0, -5%);
         color: #DFCDC3 !important;
         padding: 15px;
-    }
+    } */
 
-    .hero-image {
-        background-image: linear-gradient(rgba(108, 108, 108, 0.5), rgba(0, 0, 0, 0.65)), url("../images/women_march_pano.jpg");
+    /* .hero-image {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1006%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(43%2c 79%2c 96%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c365.176C66.928%2c354.973%2c118.224%2c308.073%2c179.537%2c279.365C252.557%2c245.176%2c348.242%2c246.119%2c394.829%2c180.312C442.408%2c113.105%2c445.899%2c17.791%2c420.069%2c-60.397C395.548%2c-134.623%2c315.372%2c-170.031%2c260.65%2c-225.854C210.035%2c-277.487%2c175.417%2c-344.447%2c110.469%2c-376.221C38.81%2c-411.278%2c-42.527%2c-426.081%2c-121.162%2c-412.641C-205.265%2c-398.266%2c-286.578%2c-361.164%2c-344.448%2c-298.466C-403.215%2c-234.796%2c-434.889%2c-149.969%2c-443.211%2c-63.724C-451.305%2c20.167%2c-431.431%2c104.666%2c-390.451%2c178.313C-351.404%2c248.486%2c-290.973%2c305.382%2c-218.536%2c340.049C-151.028%2c372.357%2c-73.986%2c376.455%2c0%2c365.176' fill='%23223f4d'%3e%3c/path%3e%3cpath d='M1440 907.0699999999999C1511.934 910.8299999999999 1587.5 922.366 1650.869 888.1179999999999 1716.059 852.886 1769.993 790.821 1788.065 718.956 1805.271 650.533 1752.683 586.299 1744.385 516.236 1735.78 443.579 1771.0059999999999 366.85900000000004 1738.598 301.263 1703.12 229.45299999999997 1641.372 152.438 1561.526 146.12099999999998 1479.719 139.64800000000002 1424.637 227.31599999999997 1355.119 270.923 1306.366 301.505 1259.852 329.40700000000004 1213.963 364.13800000000003 1155.092 408.695 1062.086 431.179 1047.6970000000001 503.595 1033.463 575.231 1114.033 628.739 1148.601 693.077 1180.425 752.307 1188.643 826.9929999999999 1242.837 866.7909999999999 1298.02 907.316 1371.628 903.496 1440 907.0699999999999' fill='%23345f73'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1006'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
         height: 40%;
         background-position: center;
         background-repeat: no-repeat;
@@ -295,4 +337,4 @@ dd>p {
     }
 }
 
-/*color palette: https://colorhunt.co/palette/3c42455f6769719192dfcdc3*/
+/*color palette: https://colorhunt.co/palette/845460ead3cbbdc7c92b4f60*/
