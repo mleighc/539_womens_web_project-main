@@ -115,7 +115,7 @@ h3 {
 }
 
 a {
-    color: #845460
+    color: #754a54
 }
 
 a:hover,
@@ -147,7 +147,7 @@ div.grid {
     filter: grayscale(3);
 }
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
     .animate {
         transition: opacity 1.5s ease, transform 1.5s ease;
     }
@@ -156,7 +156,7 @@ div.grid {
 .animate-transition {
     opacity: 1;
     transform: none;
-}
+} */
 
 .grid ul li {
     line-height: 1.2;
@@ -182,7 +182,7 @@ p+p {
 div>p {
     margin: 1%;
     padding: 1%;
-    text-align: justify;
+    text-align: left;
     color: #2B4F60;
 
 }
