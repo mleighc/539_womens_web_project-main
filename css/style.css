@@ -140,8 +140,8 @@ div.grid {
     display: inline-block;
     margin: 2%;
     border-radius: 25px 125px;
-    -webkit-box-shadow: 0 0 40px 20px #845460;
-    box-shadow: 0 0 30px 8px #845460;
+    /* -webkit-box-shadow: 0 0 40px 20px #845460;
+    box-shadow: 0 0 30px 8px #845460; */
     opacity: 85%;
     filter: grayscale(3);
 }
