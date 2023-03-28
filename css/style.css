@@ -18,7 +18,7 @@ body {
 .nav_links li a {
     display: block;
     font-family: Alegreya, Anton, 'Times New Roman', Arial;
-    padding: 12px 5px;
+    padding: 10px 5px;
     margin: 5px;
     background-color: #505160;
     color: #f8f9f9;
@@ -215,10 +215,11 @@ a:focus {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    row-gap: 15px;
 }
 
 div.card>img {
-    min-width: 100%;
+    min-width: 80%;
     margin: 20px;
     padding: 15px;
     border-radius: 25px 100px 25px 100px;
@@ -240,11 +241,20 @@ div.card>img {
     display: flex;
     border: 10px solid #505160;
     border-radius: 25px 25px;
-    padding: 25px;
-    margin: 50px;
+    padding: 15px;
+    margin: 5px;
     box-shadow: 0 0 25px 8px #68829E;
     flex-direction: column;
     align-items: center;
+}
+
+.card>p {
+    font-size: 15px;
+}
+
+.card>h2 {
+    font-size: 32px;
+    margin: 1%;
 }
 
 /* source w3school arrow: https://www.w3schools.com/howto/howto_css_arrows.asp */
@@ -410,6 +420,24 @@ dd>p {
         transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
     }
+
+    .flex {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    div.card>img {
+        min-width: 50%;
+    }
+
+    .card>p {
+        font-size: 18px;
+    }
+
+    .card>h2 {
+        font-size: 36px;
+        margin: 1%;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -469,49 +497,27 @@ dd>p {
         margin: 4%
     }
 
-    div.grid {
-        display: grid;
-        align-items: center;
-        grid-template-columns: 45% auto;
-        grid-row-gap: 1%;
-        grid-column-gap: 6%;
-        overflow: auto;
-        margin: auto;
+    .flex {
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
-    /* #mainstuff>div.grid.about {
-        display: grid;
-        grid-template-columns: 25% 25vw 30vw;
-        align-items: center;
+    .card:nth-child(even) {
+        flex-flow: column;
     }
 
-    #mainstuff>div.grid.about>div>p {
-        text-align: center;
-    } */
-
-    .grid img:hover {
-        opacity: 100%;
-        filter: none;
-        border: 4px dotted #505160;
-        padding: 3px;
+    div.card>img {
+        min-width: 50%;
     }
 
-    .grid ul li {
-        line-height: 1.2;
-        color: #505160;
-        padding: 1px;
-        margin-bottom: 2%;
+    .card>p {
+        font-size: 18px;
     }
 
-    /* div.grid.history {
-        align-items: center;
-        grid-column-gap: 5%;
-        margin: 4%;
+    .card>h2 {
+        font-size: 36px;
+        margin: 1%;
     }
-
-    div.grid.history img {
-        width: 80%;
-    } */
 
     dl.container {
         display: flex;
