@@ -69,14 +69,14 @@ li:nth-child(1)>a>svg {
 h1 {
     font-family: Alegreya, Anton, 'Times New Roman', Arial;
     font-size: 60px;
-    color: #AEBD38;
+    color: #859306;
     font-weight: 700;
     text-align: center;
     margin: 5%;
 }
 
 h1.L {
-    color: #AEBD38;
+    color: #859306;
 }
 
 h2 {
