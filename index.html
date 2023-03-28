@@ -78,8 +78,8 @@
       </p>
     </div>
 
-    <div class="grid about">
-      <div class="card">
+    <div class="slideshow-container">
+      <div class="mySlides">
         <h2>Literature</h2>
         <p>
           This page features books written by women and for women, books and essays about feminism, poems, plays, and
@@ -87,20 +87,29 @@
           of female writers.
         </p>
       </div>
-      <div class="card">
+      <div class="mySlides">
         <h2>History / Politics</h2>
         <p>
           This page features bios of important women in history and women currently in Congress or otherwise politically
           involved.
         </p>
       </div>
-      <div class="card">
+      <div class="mySlides">
         <h2>Feminist Dictionary</h2>
         <p>
           This page features a collection of important feminist terminology that might make reading easier. These will
           include formal definitions and my own understandings of the terms.
         </p>
       </div>
+      <!-- Next/prev buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <!-- Dots/bullets/indicators -->
+    <div class="dot-container">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
     </div>
   </main>
 
@@ -121,6 +130,7 @@
     <a href="#top" class="tops">Back to Top</a>
   </footer>
   </main>
+  <script src="js/about_slideshow.js"></script>
 </body>
 
 </html>

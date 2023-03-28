@@ -80,7 +80,7 @@ h1.L {
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 36px;
     font-family: Alegreya, Anton, 'Times New Roman', Arial;
     text-align: center;
     color: #598234;
@@ -133,6 +133,84 @@ a:focus {
     padding: 1.5px;
 }
 
+/* sourced code from w3schools: https://www.w3schools.com/howto/howto_js_quotes_slideshow.asp */
+/* Slideshow container */
+
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    background: #f1f1f1f1;
+}
+
+/* Slides */
+.mySlides {
+    display: none;
+    padding: 80px;
+    text-align: center;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Add a blue color to the author */
+#mainstuff>div.slideshow-container>div>p {
+    text-align: center;
+}
+
+/* end borrowed/modified w3schools code */
+
 div.grid {
     display: grid;
     grid-template-columns: 85%;
@@ -148,25 +226,14 @@ div.grid {
     justify-content: center;
     display: inline-block;
     margin: 2%;
-    padding: 3px;
+    padding: 5px;
     border-radius: 25px 125px;
     /* -webkit-box-shadow: 0 0 40px 20px #874C62;
     box-shadow: 0 0 30px 8px #874C62; */
     opacity: 85%;
     filter: grayscale(3);
-    border: 2px solid #505160;
+    border: 4px dotted #505160;
 }
-
-/* @media (prefers-reduced-motion: no-preference) {
-    .animate {
-        transition: opacity 1.5s ease, transform 1.5s ease;
-    }
-}
-
-.animate-transition {
-    opacity: 1;
-    transform: none;
-} */
 
 .grid ul li {
     line-height: 1.2;
@@ -178,6 +245,22 @@ div.grid {
 .grid ul {
     text-align: center;
 }
+
+/* source w3school arrow: https://www.w3schools.com/howto/howto_css_arrows.asp */
+.arrow {
+    margin-right: 5px;
+    border: solid #68829E;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+/* end borrowed arrow code */
 
 p+p {
     text-indent: 3%;
@@ -238,6 +321,7 @@ dd>p {
     margin: 1%;
     padding: 1.5%;
     color: #f2f2f2;
+    font-size: 18px;
 }
 
 /* testing out fitering the terms */
@@ -394,7 +478,7 @@ dd>p {
         margin: auto;
     }
 
-    #mainstuff>div.grid.about {
+    /* #mainstuff>div.grid.about {
         display: grid;
         grid-template-columns: 25% 25vw 30vw;
         align-items: center;
@@ -402,17 +486,12 @@ dd>p {
 
     #mainstuff>div.grid.about>div>p {
         text-align: center;
-    }
-
-    /* .grid img {
-        -webkit-box-shadow: 0 0 0 0 #874C62;
-        box-shadow: 0 0 0 0 #874C62;
     } */
 
     .grid img:hover {
         opacity: 100%;
         filter: none;
-        border: 2px solid #505160;
+        border: 4px dotted #505160;
         padding: 3px;
     }
 
