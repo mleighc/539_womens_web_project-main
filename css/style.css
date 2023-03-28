@@ -115,8 +115,8 @@ h3 {
 }
 
 .skip:focus {
-    left: 20px;
-    top: 358px;
+    left: 48px;
+    top: 360px;
     color: #f8f9f9;
     outline: none;
     font-weight: 400;
@@ -373,7 +373,7 @@ dd>p {
     }
 
     .skip:focus {
-        left: 20px;
+        left: 38px;
         top: 110px;
         color: #f8f9f9;
         outline: none;
