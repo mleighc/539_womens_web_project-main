@@ -117,7 +117,7 @@ h3 {
 .skip:focus {
     left: 20px;
     top: 358px;
-    color: #AEBD38;
+    color: #f8f9f9;
     outline: none;
     font-weight: 400;
 }
@@ -129,7 +129,7 @@ a {
 a:hover,
 a:focus {
     background-color: #68829E;
-    color: #88942c;
+    color: #f8f9f9;
     padding: 1.5px;
 }
 
@@ -366,7 +366,7 @@ dd>p {
         text-decoration-style: dotted;
         text-decoration-thickness: 3px;
         text-underline-offset: 5px;
-        color: hsl(16, 68%, 93%);
+        color: #f8f9f9;
         font-weight: 425;
         -webkit-box-shadow: 1px 1px 7px 1px #505160;
         box-shadow: 1px 1px 7px 1px #505160;
@@ -375,7 +375,7 @@ dd>p {
     .skip:focus {
         left: 20px;
         top: 110px;
-        color: #A7D2CB;
+        color: #f8f9f9;
         outline: none;
         font-weight: 400;
     }
@@ -386,7 +386,7 @@ dd>p {
 
     div.grid {
         display: grid;
-        align-items: baseline;
+        align-items: center;
         grid-template-columns: 45% auto;
         grid-row-gap: 1%;
         grid-column-gap: 6%;
@@ -418,7 +418,7 @@ dd>p {
 
     .grid ul li {
         line-height: 1.2;
-        color: #f8f9f9;
+        color: #505160;
         padding: 1px;
         margin-bottom: 2%;
     }
