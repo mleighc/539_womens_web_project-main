@@ -215,7 +215,7 @@ a:focus {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    row-gap: 15px;
+    row-gap: 20px;
 }
 
 div.card>img {
@@ -231,6 +231,7 @@ div.card>img {
     color: #505160;
     padding: 1px;
     margin-bottom: 2%;
+    font-size: 15px;
 }
 
 .flex ul {
@@ -431,6 +432,10 @@ dd>p {
     }
 
     .card>p {
+        font-size: 18px;
+    }
+
+    .flex ul li {
         font-size: 18px;
     }
 
