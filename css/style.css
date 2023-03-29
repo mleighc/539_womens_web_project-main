@@ -250,11 +250,16 @@ div.card>img {
 }
 
 .card>p {
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .card>h2 {
     font-size: 32px;
+    margin: 1%;
+}
+
+.card>h3 {
+    font-size: 18px;
     margin: 1%;
 }
 
@@ -440,7 +445,12 @@ dd>p {
     }
 
     .card>h2 {
-        font-size: 36px;
+        font-size: 38px;
+        margin: 1%;
+    }
+
+    .card>h3 {
+        font-size: 28px;
         margin: 1%;
     }
 }
