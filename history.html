@@ -60,8 +60,20 @@
   </header>
 
   <main id="mainstuff">
+    <!-- Control buttons -->
+    <div id="myBtnContainer">
+      <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+      <button class="btn" onclick="filterSelection('A-C')"> A-C</button>
+      <button class="btn" onclick="filterSelection('D-F')"> D-F</button>
+      <button class="btn" onclick="filterSelection('G-I')"> G-I</button>
+      <button class="btn" onclick="filterSelection('J-L')"> J-L</button>
+      <button class="btn" onclick="filterSelection('M-O')"> M-O</button>
+      <button class="btn" onclick="filterSelection('P-R')"> P-R</button>
+      <button class="btn" onclick="filterSelection('S-Z')"> S-Z</button>
+    </div>
+
     <div class="flex history" tabindex="0">
-      <div class="card">
+      <div class="card filterDiv A-C">
         <h2>Susan B. Anthony</h2>
         <img src="images/susan_ba.jpg" width="200" alt="Headshot of Susan B. Anthony">
 
@@ -81,7 +93,7 @@
         </p>
       </div>
 
-      <div class="card">
+      <div class="card filterDiv S-Z">
         <h2>Elizabeth Cady Stanton</h2>
         <img src="images/elizabeth_cady_s.jpg" width="200" alt="Headshot of Elizabeth Cady Stanton">
 
@@ -106,7 +118,7 @@
         </p>
       </div>
 
-      <div class="card">
+      <div class="card filterDiv P-R">
         <h2>Jeannette Rankin</h2>
         <img src="images/jeannette_rankin.jpg" width="200" alt="Headshot of Jeannette Rankin">
 
@@ -137,7 +149,7 @@
       </div>
 
 
-      <div class="card">
+      <div class="card filterDiv G-I">
         <h2>Debra Haaland</h2>
         <img src="images/debra_haaland.jpg" width="200" alt="Headshot of Debra Haaland">
 
@@ -156,7 +168,7 @@
         </p>
       </div>
 
-      <div class="card">
+      <div class="card filterDiv D-F">
         <h2>Geraldine Anne Ferraro</h2>
         <img
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/GERALDINE_FERRARO.jpg/440px-GERALDINE_FERRARO.jpg"
@@ -183,7 +195,7 @@
         <p>
       </div>
 
-      <div class="card">
+      <div class="card filterDiv G-I">
         <h2>Ruth Bader Ginsburg</h2>
         <img src="images/rbg.jpg" width="200" alt="Headshot of Ruth Bader Ginsburg">
 
@@ -215,7 +227,7 @@
         </p>
       </div>
 
-      <div class="card">
+      <div class="card filterDiv P-R">
         <h2>Condoleezza "Condi" Rice</h2>
         <img
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Condoleezza_Rice_cropped.jpg/440px-Condoleezza_Rice_cropped.jpg"
@@ -251,7 +263,7 @@
           second woman after Madeleine Albright to hold this office.</p>
       </div>
 
-      <div class="card">
+      <div class="card filterDiv A-C">
         <h2>Hillary Rodham Clinton</h2>
         <img src="images/hrc.jpg" width="200" alt="Headshot of Hillary Clinton">
 
@@ -292,7 +304,7 @@
         </p>
       </div>
 
-      <div class="card">
+      <div class="card filterDiv S-Z">
         <h2>Lauren Underwood</h2>
         <img src="images/lauren_underwood.jpg" width="200" alt="Headshot of Lauren Underwood">
 
@@ -316,7 +328,7 @@
         </p>
       </div>
 
-      <div class="card">
+      <div class="card filterDiv G-I">
         <h2>Kamala Harris</h2>
         <img src="images/kamala.jpg" width="200" alt="Headshot of Kamala Harris">
 
@@ -342,7 +354,7 @@
       </div>
 
 
-      <div class="card">
+      <div class="card filterDiv P-R">
         <h2>Nancy Pelosi</h2>
         <img src="images/nancy_p.jpg" width="200" alt="Headshot of Nancy Pelosi">
 
@@ -376,7 +388,7 @@
         </p>
       </div>
 
-      <div class="card">
+      <div class="card filterDiv J-L">
         <h2>Marsha P. Johnson</h2>
         <img src="images/MarshaJohnson.jpeg" width="200" alt="Headshot of Marsha P. Johnson">
 
@@ -399,7 +411,7 @@
           death in 1992.</p>
       </div>
 
-      <div class="card">
+      <div class="card filterDiv D-F">
         <h2>Sharice Davids</h2>
         <img src="images/sharice.jpg" width="200" alt="Headshot of Sharice Davids">
 
@@ -423,7 +435,7 @@
         </p>
       </div>
 
-      <div class="card">
+      <div class="card filterDiv A-C">
         <h2>Shirley Chisholm</h2>
         <img src="images/shirley_c.jpg" width="200" alt="Headshot of Shirley Chisholm">
 
@@ -438,7 +450,7 @@
       </div>
 
 
-      <div class="card">
+      <div class="card filterDiv S-Z">
         <h2>Gloria Steinem</h2>
         <img src="images/gloria_steinem.jpg" width="200" alt="Headshot of Gloria Steinem">
 
@@ -460,7 +472,7 @@
         </p>
       </div>
 
-      <div class="card">
+      <div class="card filterDiv M-O">
         <h2>Michelle Obama</h2>
         <img src="images/michelle_obama.jpg" width="200" alt="Headshot of Michelle Obama">
 
@@ -480,7 +492,7 @@
         </p>
       </div>
 
-      <div class="card">
+      <div class="card filterDiv D-F">
         <h2>Angela Davis</h2>
         <img src="images/angela_davis.jpg" width="200" alt="Headshot of Angela Davis">
 
@@ -503,7 +515,7 @@
         </p>
       </div>
 
-      <div class="card">
+      <div class="card filterDiv P-R">
         <h2>Eleanor Roosevelt</h2>
         <img src="images/eleanor_r.jpg" width="200" alt="Headshot of ELeanor Roosevelt">
 
@@ -534,7 +546,7 @@
         </p>
       </div>
 
-      <div class="card">
+      <div class="card filterDiv D-F">
         <h2>Lili Elbe</h2>
         <img src="images/Lili_Elbe.jpeg" width="200" alt="Headshot of Lili Elbe">
 
@@ -563,6 +575,7 @@
     </div>
     <a href="#top" class="tops">Back to Top</a>
   </footer>
+  <script src="js/femdict_btns.js"></script>
 </body>
 
 </html>
