@@ -306,9 +306,10 @@ div>p {
 }
 
 footer {
-    padding: 5px 15px 5px 15px;
+    padding: 10px 25px 10px 25px;
     margin: 20px;
     text-align: center;
+    color: #505160;
 }
 
 dl.container {
