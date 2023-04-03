@@ -73,7 +73,7 @@
     </div>
 
     <div class="flex history" tabindex="0">
-      <div class="card filterDiv A-C">
+      <div class="card filterDiv A-C" data-name="anthony">
         <h2>Susan B. Anthony</h2>
         <img src="images/susan_ba.jpg" width="200" alt="Headshot of Susan B. Anthony">
 
@@ -85,15 +85,20 @@
         </p>
 
         <p>
-          In 1872, Anthony was arrested for voting in her hometown of Rochester, New York, and convicted in a widely
-          publicized trial. Although she refused to pay the fine, the authorities declined to take further action. In
-          1878, Anthony and Elizabeth Cady Stanton arranged for Congress to be presented with an amendment giving women
-          the right to vote. Introduced by Sen. Aaron A. Sargent (R-CA), it later became known colloquially as the Susan
-          B. Anthony Amendment. It was ratified as the Nineteenth Amendment to the U.S. Constitution in 1920.
+          In 1872, Anthony was arrested for voting in her hometown of Rochester, <span class="dots">...</span><span
+            class="more">New York, and convicted in a widely
+            publicized trial. Although she refused to pay the fine, the
+            authorities declined to take further action. In
+            1878, Anthony and Elizabeth Cady Stanton arranged for Congress to be presented with an amendment giving
+            women the right to vote. Introduced by Sen. Aaron A. Sargent
+            (R-CA), it later became known colloquially as the Susan
+            B. Anthony Amendment. It was ratified as the Nineteenth Amendment to the U.S. Constitution in 1920.
+          </span>
         </p>
+        <button onclick="readMore('anthony')" class="myBtn">Read more</button>
       </div>
 
-      <div class="card filterDiv S-Z">
+      <div class="card filterDiv S-Z" data-name="stanton">
         <h2>Elizabeth Cady Stanton</h2>
         <img src="images/elizabeth_cady_s.jpg" width="200" alt="Headshot of Elizabeth Cady Stanton">
 
@@ -104,18 +109,18 @@
           in
           Seneca Falls, New York, is often credited with initiating the first organized women's rights and women's
           suffrage
-          movements in the United States. Stanton was president of the National Woman Suffrage Association from 1892
-          until
-          1900.
+          movements in the United States. Stanton was president of the National Woman Suffrage <span
+            class="dots">...</span><span class="more"> Association from 1892
+            until
+            1900.
+            Unlike many of those involved in the women's rights movement,
+            Stanton addressed various issues pertaining to
+            women
+            beyond voting rights. Her concerns included women's parental and custody rights, property rights, employment
+            and
+            income rights, divorce, the economic health of the family, and birth control.</span>
         </p>
-
-        <p>
-          Unlike many of those involved in the women's rights movement, Stanton addressed various issues pertaining to
-          women
-          beyond voting rights. Her concerns included women's parental and custody rights, property rights, employment
-          and
-          income rights, divorce, the economic health of the family, and birth control.
-        </p>
+        <button onclick="readMore('stanton')" class="myBtn">Read more</button>
       </div>
 
       <div class="card filterDiv P-R">
@@ -146,6 +151,7 @@
           "I am deeply conscious of the responsibility resting upon me". She championed the causes of women's rights and
           civil rights throughout a career that spanned more than six decades.
         </p>
+        <button onclick="readMore()" id="myBtn">Read more</button>
       </div>
 
 
@@ -166,6 +172,7 @@
           former
           chair of the Democratic Party of New Mexico.
         </p>
+        <button onclick="readMore()" id="myBtn">Read more</button>
       </div>
 
       <div class="card filterDiv D-F">
@@ -193,6 +200,7 @@
           in
           a landslide by incumbent President Ronald Reagan and Vice President George H. W. Bush.
         <p>
+          <button onclick="readMore()" id="myBtn">Read more</button>
       </div>
 
       <div class="card filterDiv G-I">
@@ -225,6 +233,7 @@
           counsels
           in the 1970s.
         </p>
+        <button onclick="readMore()" id="myBtn">Read more</button>
       </div>
 
       <div class="card filterDiv P-R">
@@ -261,6 +270,7 @@
           Secretary of State, thereby becoming the first African-American woman, second African-American after Powell,
           and
           second woman after Madeleine Albright to hold this office.</p>
+        <button onclick="readMore()" id="myBtn">Read more</button>
       </div>
 
       <div class="card filterDiv A-C">
@@ -302,6 +312,7 @@
           received more than 65 million votes, the 3rd-highest count in a U.S. presidential election, behind Obama's
           victories in 2008 and 2012.
         </p>
+        <button onclick="readMore()" id="myBtn">Read more</button>
       </div>
 
       <div class="card filterDiv S-Z">
@@ -326,6 +337,7 @@
           the
           youngest black woman to serve in Congress.
         </p>
+        <button onclick="readMore()" id="myBtn">Read more</button>
       </div>
 
       <div class="card filterDiv G-I">
@@ -351,6 +363,7 @@
           November 8, 2016, she defeated Loretta Sanchez in the 2016 Senate election to succeed outgoing Senator Barbara
           Boxer, becoming California's third female U.S. Senator and the first of either Indian or Jamaican descent.
         </p>
+        <button onclick="readMore()" id="myBtn">Read more</button>
       </div>
 
 
@@ -386,6 +399,7 @@
           economic
           stimulus amidst the Great Recession.
         </p>
+        <button onclick="readMore()" id="myBtn">Read more</button>
       </div>
 
       <div class="card filterDiv J-L">
@@ -409,6 +423,7 @@
           Wicker's lover. Her connection to the community led Johnson to attend early meetings of AIDS advocacy group
           ACT UP. She was an outspoken activist for people with AIDS, transgender people, and homeless youth until her
           death in 1992.</p>
+        <button onclick="readMore()" id="myBtn">Read more</button>
       </div>
 
       <div class="card filterDiv D-F">
@@ -433,6 +448,7 @@
           is
           also the first openly lesbian and LGBT member of Congress from Kansas.
         </p>
+        <button onclick="readMore()" id="myBtn">Read more</button>
       </div>
 
       <div class="card filterDiv A-C">
@@ -447,6 +463,7 @@
           of
           the United States, and the first woman to run for the Democratic Party's presidential nomination.
         </p>
+        <button onclick="readMore()" id="myBtn">Read more</button>
       </div>
 
 
@@ -470,6 +487,7 @@
           "to
           make women visible and powerful in the media".
         </p>
+        <button onclick="readMore()" id="myBtn">Read more</button>
       </div>
 
       <div class="card filterDiv M-O">
@@ -490,6 +508,7 @@
           nutrition, physical activity and healthy eating. She supported American designers and was considered a fashion
           icon.
         </p>
+        <button onclick="readMore()" id="myBtn">Read more</button>
       </div>
 
       <div class="card filterDiv D-F">
@@ -513,6 +532,7 @@
           to
           abolish the prison–industrial complex.
         </p>
+        <button onclick="readMore()" id="myBtn">Read more</button>
       </div>
 
       <div class="card filterDiv P-R">
@@ -544,6 +564,7 @@
           served as the first chair of the UN Commission on Human Rights and oversaw the drafting of the Universal
           Declaration of Human Rights.
         </p>
+        <button onclick="readMore()" id="myBtn">Read more</button>
       </div>
 
       <div class="card filterDiv D-F">
@@ -560,6 +581,7 @@
           surgeries, including a uterus transplant. Unfortunately, Lili’s immune system rejected the transplant, and she
           died from cardiac arrest due to infection just three months after her last surgery.
         </p>
+        <button onclick="readMore()" id="myBtn">Read more</button>
       </div>
     </div>
   </main>
@@ -575,7 +597,7 @@
     </div>
     <a href="#top" class="tops">Back to Top</a>
   </footer>
-  <script src="js/femdict_btns.js"></script>
+  <script src="js/utility_functions.js"></script>
 </body>
 
 </html>

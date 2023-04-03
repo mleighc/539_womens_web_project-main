@@ -149,6 +149,10 @@ a:focus {
     text-align: center;
 }
 
+div.slideshow-container>div>img {
+    border-radius: 10px;
+}
+
 /* Next & previous buttons */
 .prev,
 .next {
@@ -219,6 +223,18 @@ a:focus {
     margin-top: 20px;
 }
 
+
+/* .line-clamp {
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+} */
+
+/* idea source Read More button: https://www.w3schools.com/howto/howto_js_read_more.asp */
+.more {
+    display: none;
+}
+
 div.card>img {
     min-width: 95%;
     margin: 20px;
@@ -240,14 +256,11 @@ div.card>img {
 }
 
 .card {
-    display: flex;
     border: 10px solid #505160;
     border-radius: 25px 25px;
-    padding: 15px;
+    padding: 20px;
     margin: 5px;
     box-shadow: 0 0 25px 8px #68829E;
-    flex-direction: column;
-    align-items: center;
 }
 
 .card>p {
@@ -399,6 +412,7 @@ dd>p {
         display: block;
         width: 100%;
         height: auto;
+        border-radius: 10px;
     }
 
     .overlay {
@@ -412,6 +426,7 @@ dd>p {
         opacity: 0;
         transition: .5s ease;
         background-color: #68829E;
+        border-radius: 1-px;
     }
 
     .pano_container:hover .overlay {
