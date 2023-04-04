@@ -267,6 +267,22 @@ div.card>img {
     box-shadow: 0 0 25px 8px #68829E;
 }
 
+.card.lit {
+    background-image: url(../images/linen-paper-back.jpg);
+    background-repeat: no-repeat;
+    background-size: 1200px;
+
+}
+
+.card.lit>h2 {
+    color: #598234;
+}
+
+.card.lit>h3 {
+    text-decoration-color: #4a5c70;
+    color: #598234;
+}
+
 .card>p {
     font-size: 16px;
 }
