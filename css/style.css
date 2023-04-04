@@ -383,7 +383,7 @@ dd>p {
     cursor: pointer;
     -webkit-box-shadow: 1px 1px 1px 1px #505160;
     box-shadow: 1px 1px 1px 1px #505160;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 /* Add a light grey background on mouse-over */
@@ -448,6 +448,7 @@ dd>p {
     .btn {
         margin: 5px;
         padding: 12px 16px;
+        font-size: 14px;
     }
 
     .flex {
