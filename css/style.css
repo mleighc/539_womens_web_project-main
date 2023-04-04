@@ -235,6 +235,10 @@ div.slideshow-container>div>img {
     display: none;
 }
 
+.myBtn {
+    color: #505160;
+}
+
 div.card>img {
     min-width: 95%;
     margin: 20px;
