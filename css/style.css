@@ -516,7 +516,7 @@ dd>p {
         text-decoration: overline;
         text-decoration-style: dotted;
         text-decoration-thickness: 3px;
-        text-underline-offset: 5px;
+        text-underline-offset: 4px;
         color: #f8f9f9;
         font-weight: 425;
         -webkit-box-shadow: 1px 1px 7px 1px #505160;
